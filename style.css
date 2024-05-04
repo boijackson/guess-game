@@ -1,0 +1,76 @@
+#jack{
+    border: 10px black;
+}
+h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    transition: transform 1s ease-in-out;
+    text-transform: uppercase;  
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: blue;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30px 30x;
+    border: 2px double white;
+}
+h1:hover{
+    transform: translateY(-20px);  
+    cursor: pointer;
+    background-color: blue;
+}
+div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 60px;
+    overflow: hidden;
+    background-size: cover;
+    background-image: url(image/background1\ \(9\).jpg);
+    gap: 2px;
+    
+}   
+input{
+    height: 35px;
+    width: 75px;
+    text-align: center;
+    margin: 20px 20px;
+    font-size: large;
+    border-radius: 4px;
+    background-color: blue;
+    color: white;
+    
+}
+
+
+button{
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-size: large;
+    width: 100px;
+    height: 40px;
+    border: none;
+
+}
+button:hover{
+ cursor: pointer;  
+ background-color: blue;
+}
+
+p{
+    font-size: 30px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    transition: transform 2s ease-in-out;
+    color: white;
+}
+p:hover{
+    transform: translateY(-20px);
+    background-color: palevioletred;
+}
